@@ -1,0 +1,2 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/save_features.c:31:15:sail_alloc_save_features	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/save_features.c:51:6:sail_destroy_save_features	16	static

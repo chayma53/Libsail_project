@@ -1,0 +1,10 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:34:15:sail_probe_io	72	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:68:15:sail_probe_memory	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:83:15:sail_start_loading_file	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:90:15:sail_start_loading_memory	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:97:15:sail_load_next_frame	48	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:130:15:sail_stop_loading	24	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:153:15:sail_start_saving_file	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:160:15:sail_start_saving_memory	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:167:15:sail_write_next_frame	48	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_advanced.c:192:15:sail_stop_saving	24	static

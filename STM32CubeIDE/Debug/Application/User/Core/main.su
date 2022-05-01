@@ -1,0 +1,7 @@
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/main.c:68:5:main	8	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/main.c:116:6:SystemClock_Config	88	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/main.c:167:6:MX_SDIO_SD_Init	8	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/main.c:201:13:MX_DMA_Init	16	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/main.c:222:13:MX_GPIO_Init	24	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/main.c:245:6:HAL_TIM_PeriodElapsedCallback	16	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/main.c:262:6:Error_Handler	8	static

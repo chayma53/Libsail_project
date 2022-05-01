@@ -1,0 +1,10 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:28:13:sail_pixel_format_to_string	16	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:128:22:sail_pixel_format_from_string	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:239:13:sail_image_property_to_string	16	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:251:24:sail_image_property_from_string	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:267:13:sail_compression_to_string	16	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:313:22:sail_compression_from_string	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:363:13:sail_meta_data_to_string	16	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:399:19:sail_meta_data_from_string	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:439:13:sail_codec_feature_to_string	16	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:454:23:sail_codec_feature_from_string	32	static

@@ -1,0 +1,8 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:32:15:sail_alloc_image	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:57:6:sail_destroy_image	16	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:74:15:sail_copy_image	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:104:15:sail_copy_image_skeleton	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:146:15:sail_check_image_skeleton_valid	24	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:163:15:sail_check_image_valid	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:178:15:sail_flip_vertically	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/image.c:198:15:sail_flip_horizontally	48	static

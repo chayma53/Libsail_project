@@ -1,0 +1,5 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_deep_diver.c:33:15:sail_start_loading_file_with_options	48	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_deep_diver.c:54:15:sail_start_loading_memory_with_options	48	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_deep_diver.c:76:15:sail_start_saving_file_with_options	48	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_deep_diver.c:98:15:sail_start_saving_memory_with_options	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_deep_diver.c:113:15:sail_stop_saving_with_written	24	static

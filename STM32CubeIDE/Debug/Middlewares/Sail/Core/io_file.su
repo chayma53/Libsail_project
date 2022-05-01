@@ -1,0 +1,12 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:45:22:io_file_tolerant_read	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:58:22:io_file_strict_read	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:71:22:io_file_tolerant_write	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:84:22:io_file_strict_write	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:97:22:io_file_seek	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:111:22:io_file_tell	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:130:22:io_file_flush	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:144:22:io_file_close	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:158:22:io_file_eof	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:170:22:alloc_io_file	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:206:15:sail_alloc_io_read_file	24	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:224:15:sail_alloc_io_read_write_file	24	static

@@ -1,0 +1,4 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver.c:33:15:sail_start_loading_io	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver.c:40:15:sail_start_loading_io_with_options	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver.c:49:15:sail_start_saving_io	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver.c:56:15:sail_start_saving_io_with_options	40	static

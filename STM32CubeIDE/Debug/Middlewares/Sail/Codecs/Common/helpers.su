@@ -1,0 +1,13 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:32:15:bmp_private_read_ddb_file_header	24	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:39:15:bmp_private_read_v1	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:52:15:bmp_private_read_dib_file_header	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:63:15:bmp_private_read_v2	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:74:15:bmp_private_read_v3	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:86:15:bmp_private_read_v4	56	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:109:15:bmp_private_read_v5	24	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:119:15:bmp_private_bit_count_to_pixel_format	24	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:133:15:bmp_private_fetch_iccp	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:149:15:bmp_private_skip_end_of_scan_line	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:167:15:bmp_private_bytes_in_row	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:181:10:bmp_private_pad_bytes	24	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/helpers.c:187:15:bmp_private_fill_system_palette	120	static

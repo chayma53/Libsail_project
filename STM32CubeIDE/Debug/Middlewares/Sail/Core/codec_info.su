@@ -1,0 +1,6 @@
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_info.c:35:15:sail_codec_info_from_path	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_info.c:75:15:sail_codec_info_by_magic_number_from_path	32	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_info.c:91:15:sail_codec_info_by_magic_number_from_memory	40	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_info.c:107:15:sail_codec_info_by_magic_number_from_io	152	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_info.c:202:15:sail_codec_info_from_extension	48	static
+/home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_info.c:243:15:sail_codec_info_from_mime_type	48	static
