@@ -1,0 +1,5 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/palette.c:32:15:sail_alloc_palette	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/palette.c:47:6:sail_destroy_palette	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/palette.c:57:15:sail_copy_palette	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/palette.c:84:15:sail_alloc_palette_for_data	56	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/palette.c:108:15:sail_alloc_palette_from_data	48	static

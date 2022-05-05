@@ -1,0 +1,5 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/meta_data.c:32:15:sail_alloc_meta_data	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/meta_data.c:47:15:sail_alloc_meta_data_from_known_key	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/meta_data.c:56:15:sail_alloc_meta_data_from_unknown_key	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/meta_data.c:71:6:sail_destroy_meta_data	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/meta_data.c:82:15:sail_copy_meta_data	40	static

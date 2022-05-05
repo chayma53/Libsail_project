@@ -1,0 +1,6 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/variant_node.c:28:15:sail_alloc_variant_node	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/variant_node.c:35:15:sail_alloc_variant_node_and_value	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/variant_node.c:44:6:sail_destroy_variant_node	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/variant_node.c:50:15:sail_copy_variant_node	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/variant_node.c:60:6:sail_destroy_variant_node_chain	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/variant_node.c:66:15:sail_copy_variant_node_chain	24	static

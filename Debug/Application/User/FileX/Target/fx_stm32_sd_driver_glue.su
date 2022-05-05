@@ -1,0 +1,7 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/FileX/Target/fx_stm32_sd_driver_glue.c:28:5:fx_stm32_sd_init	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/FileX/Target/fx_stm32_sd_driver_glue.c:52:5:fx_stm32_sd_deinit	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/FileX/Target/fx_stm32_sd_driver_glue.c:77:5:fx_stm32_sd_get_status	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/FileX/Target/fx_stm32_sd_driver_glue.c:105:5:fx_stm32_sd_read_blocks	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/FileX/Target/fx_stm32_sd_driver_glue.c:133:5:fx_stm32_sd_write_blocks	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/FileX/Target/fx_stm32_sd_driver_glue.c:158:6:HAL_SD_TxCpltCallback	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/FileX/Target/fx_stm32_sd_driver_glue.c:176:6:HAL_SD_RxCpltCallback	16	static

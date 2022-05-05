@@ -1,0 +1,7 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c:100:22:alloc_bmp_state	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c:123:13:destroy_bmp_state	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c:136:22:read_bmp_headers	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c:192:15:bmp_private_read_init	104	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c:326:15:bmp_private_read_seek_next_frame	72	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c:384:15:bmp_private_read_frame	104	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c:533:15:bmp_private_read_finish	24	static

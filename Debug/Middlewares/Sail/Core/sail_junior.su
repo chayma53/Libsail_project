@@ -1,0 +1,6 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_junior.c:37:22:probe_file_with_io	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_junior.c:54:15:sail_probe_file	80	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_junior.c:99:15:sail_load_image_from_file	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_junior.c:122:15:sail_load_image_from_memory	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_junior.c:141:15:sail_save_image_into_file	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_junior.c:159:15:sail_save_image_into_memory	48	static

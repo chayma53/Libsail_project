@@ -1,0 +1,9 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:30:15:sail_io_noop_tolerant_read	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:40:15:sail_io_noop_strict_read	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:49:15:sail_io_noop_seek	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:58:15:sail_io_noop_tell	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:66:15:sail_io_noop_tolerant_write	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:76:15:sail_io_noop_strict_write	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:85:15:sail_io_noop_flush	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:92:15:sail_io_noop_close	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c:99:15:sail_io_noop_eof	24	static

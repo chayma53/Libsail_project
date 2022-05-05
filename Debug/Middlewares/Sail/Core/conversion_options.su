@@ -1,0 +1,2 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-manip/conversion_options.c:28:15:sail_alloc_conversion_options	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-manip/conversion_options.c:43:6:sail_destroy_conversion_options	16	static

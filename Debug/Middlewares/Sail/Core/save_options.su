@@ -1,0 +1,4 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/save_options.c:31:15:sail_alloc_save_options	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/save_options.c:47:6:sail_destroy_save_options	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/save_options.c:56:15:sail_alloc_save_options_from_features	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/save_options.c:81:15:sail_copy_save_options	32	static

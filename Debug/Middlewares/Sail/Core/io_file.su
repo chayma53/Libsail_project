@@ -1,0 +1,17 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/ST/filex/common/src/fx_file_open.c:85:7:_fx_file_open	448	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/ST/filex/common/src/fx_file_close.c:76:7:_fx_file_close	40	static,ignoring_inline_asm
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/ST/filex/common/src/fx_file_read.c:84:7:_fx_file_read	200	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/ST/filex/common/src/fx_file_write.c:100:7:_fx_file_write	544	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/ST/filex/common/src/fx_file_seek.c:78:7:_fx_file_seek	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:49:22:io_file_tolerant_read	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:65:22:io_file_strict_read	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:78:22:io_file_tolerant_write	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:91:22:io_file_strict_write	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:104:22:io_file_seek	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:118:22:io_file_tell	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:137:22:io_file_flush	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:151:22:io_file_close	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:165:22:io_file_eof	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:177:22:alloc_io_file	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:213:15:sail_alloc_io_read_file	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_file.c:231:15:sail_alloc_io_read_write_file	24	static

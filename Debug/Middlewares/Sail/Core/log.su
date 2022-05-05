@@ -1,0 +1,4 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/log.c:73:13:check_ansi_colors_supported	8	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/log.c:120:6:sail_log	60	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/log.c:194:6:sail_set_log_barrier	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/log.c:199:6:sail_set_logger	16	static

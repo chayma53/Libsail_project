@@ -1,0 +1,2 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/compression_level.c:28:15:sail_alloc_compression_level	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/compression_level.c:44:6:sail_destroy_compression_level	16	static

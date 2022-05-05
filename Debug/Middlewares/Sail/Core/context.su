@@ -1,0 +1,4 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/context.c:35:15:sail_init	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/context.c:42:15:sail_init_with_flags	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/context.c:50:15:sail_unload_codecs	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/context.c:57:6:sail_finish	8	static
