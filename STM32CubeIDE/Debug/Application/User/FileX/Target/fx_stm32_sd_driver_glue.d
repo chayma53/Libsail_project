@@ -1,6 +1,6 @@
 Application/User/FileX/Target/fx_stm32_sd_driver_glue.o: \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/FileX/Target/fx_stm32_sd_driver_glue.c \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/FileX/Target/fx_stm32_sd_driver.h \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/Target/fx_stm32_sd_driver_glue.c \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/Target/fx_stm32_sd_driver.h \
  ../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h \
  ../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h \
  ../../FileX/App/fx_user.h \
@@ -38,7 +38,7 @@ Application/User/FileX/Target/fx_stm32_sd_driver_glue.o: \
  ../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
  ../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/FileX/Target/fx_stm32_sd_driver.h:
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/Target/fx_stm32_sd_driver.h:
 ../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:
 ../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h:
 ../../FileX/App/fx_user.h:

@@ -39,15 +39,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_macro  00034f51  00000000  00000000  0008a030  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   0003b896  00000000  00000000  000bef81  2**0
+ 18 .debug_line   0003b83c  00000000  00000000  000bef81  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    0010996f  00000000  00000000  000fa817  2**0
+ 19 .debug_str    0010998b  00000000  00000000  000fa7bd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000050  00000000  00000000  00204186  2**0
+ 20 .comment      00000050  00000000  00000000  00204148  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  000054c4  00000000  00000000  002041d8  2**2
+ 21 .debug_frame  000054c4  00000000  00000000  00204198  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .stabstr      0000004e  00000000  00000000  0020969c  2**0
+ 22 .stabstr      0000004e  00000000  00000000  0020965c  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -42048,15 +42048,31 @@ UINT  _tx_byte_allocate(TX_BYTE_POOL *pool_ptr, VOID **memory_ptr, ULONG memory_
  800eccc:	3303      	adds	r3, #3
  800ecce:	f023 0303 	bic.w	r3, r3, #3
  800ecd2:	607b      	str	r3, [r7, #4]
+{
+unsigned int posture;
+#ifdef TX_PORT_USE_BASEPRI
+    __asm__ volatile ("MRS  %0, BASEPRI ": "=r" (posture));
+#else
     __asm__ volatile ("MRS  %0, PRIMASK ": "=r" (posture));
  800ecd4:	f3ef 8310 	mrs	r3, PRIMASK
  800ecd8:	637b      	str	r3, [r7, #52]	; 0x34
+#endif
     return(posture);
  800ecda:	6b7b      	ldr	r3, [r7, #52]	; 0x34
+
+__attribute__( ( always_inline ) ) static inline unsigned int __disable_interrupts(void)
+{
+unsigned int int_posture;
+
     int_posture = __get_interrupt_posture();
  800ecdc:	633b      	str	r3, [r7, #48]	; 0x30
+
+#ifdef TX_PORT_USE_BASEPRI
+    __set_basepri_value(TX_PORT_BASEPRI);
+#else
     __asm__ volatile ("CPSID i" : : : "memory");
  800ecde:	b672      	cpsid	i
+#endif
     return(int_posture);
  800ece0:	6b3b      	ldr	r3, [r7, #48]	; 0x30
 

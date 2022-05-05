@@ -1,6 +1,6 @@
 Application/User/FileX/App/app_filex.o: \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/FileX/App/app_filex.c \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/FileX/App/app_filex.h \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/App/app_filex.c \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/App/app_filex.h \
  ../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h \
  ../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h \
  ../../FileX/App/fx_user.h \
@@ -41,7 +41,7 @@ Application/User/FileX/App/app_filex.o: \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sd.h \
  ../../../../../../../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.h
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/FileX/App/app_filex.h:
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/App/app_filex.h:
 ../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:
 ../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h:
 ../../FileX/App/fx_user.h:

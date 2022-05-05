@@ -1,5 +1,5 @@
 Application/User/Core/main.o: \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/Core/Src/main.c \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/Core/Src/main.c \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \

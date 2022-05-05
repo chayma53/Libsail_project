@@ -1,3 +1,3 @@
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/stm32f4xx_hal_msp.c:66:6:HAL_MspInit	16	static
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/stm32f4xx_hal_msp.c:88:6:HAL_SD_MspInit	112	static
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/stm32f4xx_hal_msp.c:194:6:HAL_SD_MspDeInit	16	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/Core/Src/stm32f4xx_hal_msp.c:66:6:HAL_MspInit	16	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/Core/Src/stm32f4xx_hal_msp.c:88:6:HAL_SD_MspInit	112	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/Core/Src/stm32f4xx_hal_msp.c:194:6:HAL_SD_MspDeInit	16	static

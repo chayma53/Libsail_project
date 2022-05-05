@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32f4xx.o: \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/Core/Src/system_stm32f4xx.c \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/Core/Src/system_stm32f4xx.c \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f469xx.h \
  ../../../../../../../Drivers/CMSIS/Include/core_cm4.h \

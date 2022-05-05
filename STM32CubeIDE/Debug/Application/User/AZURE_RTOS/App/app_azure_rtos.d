@@ -1,7 +1,7 @@
 Application/User/AZURE_RTOS/App/app_azure_rtos.o: \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/AZURE_RTOS/App/app_azure_rtos.c \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/AZURE_RTOS/App/app_azure_rtos.h \
- /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/AZURE_RTOS/App/app_azure_rtos_config.h \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/AZURE_RTOS/App/app_azure_rtos.c \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/AZURE_RTOS/App/app_azure_rtos.h \
+ /home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/AZURE_RTOS/App/app_azure_rtos_config.h \
  ../../Core/Inc/app_threadx.h \
  ../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h \
@@ -40,8 +40,8 @@ Application/User/AZURE_RTOS/App/app_azure_rtos.o: \
  ../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
  ../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/AZURE_RTOS/App/app_azure_rtos.h:
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit\ (copie)/AZURE_RTOS/App/app_azure_rtos_config.h:
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/AZURE_RTOS/App/app_azure_rtos.h:
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/AZURE_RTOS/App/app_azure_rtos_config.h:
 ../../Core/Inc/app_threadx.h:
 ../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h:
 ../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h:
