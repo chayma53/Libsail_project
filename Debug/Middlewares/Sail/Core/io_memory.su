@@ -1,0 +1,11 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:74:22:io_memory_tolerant_read	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:101:22:io_memory_strict_read	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:114:22:io_memory_tolerant_write	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:146:22:io_memory_strict_write	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:159:22:io_memory_seek	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:201:22:io_memory_tell	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:213:22:io_memory_flush	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:220:22:io_memory_close	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:229:22:io_memory_eof	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:245:15:sail_alloc_io_read_memory	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c:282:15:sail_alloc_io_read_write_memory	48	static

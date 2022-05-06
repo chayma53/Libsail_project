@@ -1,0 +1,3 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/source_image.c:32:15:sail_alloc_source_image	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/source_image.c:50:6:sail_destroy_source_image	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/source_image.c:60:15:sail_copy_source_image	32	static

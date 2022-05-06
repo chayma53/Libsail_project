@@ -1,0 +1,5 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/iccp.c:32:15:sail_alloc_iccp	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/iccp.c:46:15:sail_alloc_iccp_from_data	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/iccp.c:65:15:sail_alloc_iccp_move_data	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/iccp.c:78:6:sail_destroy_iccp	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/iccp.c:88:15:sail_copy_iccp	32	static

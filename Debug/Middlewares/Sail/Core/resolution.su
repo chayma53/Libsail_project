@@ -1,0 +1,4 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/resolution.c:31:15:sail_alloc_resolution	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/resolution.c:38:15:sail_alloc_resolution_from_data	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/resolution.c:53:6:sail_destroy_resolution	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/resolution.c:62:15:sail_copy_resolution	32	static

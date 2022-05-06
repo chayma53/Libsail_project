@@ -1,0 +1,12 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:28:13:sail_pixel_format_to_string	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:128:22:sail_pixel_format_from_string	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:239:13:sail_chroma_subsampling_to_string	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:256:28:sail_chroma_subsampling_from_string	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:277:13:sail_orientation_to_string	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:293:22:sail_orientation_from_string	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:313:13:sail_compression_to_string	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:359:22:sail_compression_from_string	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:409:13:sail_meta_data_to_string	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:445:19:sail_meta_data_from_string	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:485:13:sail_codec_feature_to_string	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/common_serialize.c:500:23:sail_codec_feature_from_string	32	static

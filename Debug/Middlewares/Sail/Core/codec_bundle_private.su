@@ -1,0 +1,2 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_bundle_private.c:28:15:alloc_codec_bundle	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec_bundle_private.c:42:6:destroy_codec_bundle	16	static

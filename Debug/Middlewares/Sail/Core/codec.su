@@ -1,0 +1,5 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec.c:48:22:alloc_codec	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec.c:64:22:load_combined_codec	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec.c:86:22:load_codec_from_file	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec.c:157:15:alloc_and_load_codec	56	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec.c:215:6:destroy_codec	16	static

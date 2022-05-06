@@ -1,0 +1,3 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/stm32f4xx_hal_timebase_tim.c:41:19:HAL_InitTick	56	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/stm32f4xx_hal_timebase_tim.c:94:6:HAL_SuspendTick	4	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Fx_uSD_File_Edit (copie)/Core/Src/stm32f4xx_hal_timebase_tim.c:106:6:HAL_ResumeTick	4	static

@@ -1,0 +1,6 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/linked_list_node.c:28:15:sail_private_alloc_linked_list_node	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/linked_list_node.c:42:15:sail_private_alloc_linked_list_node_and_value	40	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/linked_list_node.c:59:6:sail_private_destroy_linked_list_node	16	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/linked_list_node.c:70:15:sail_private_copy_linked_list_node	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/linked_list_node.c:91:6:sail_private_destroy_linked_list_node_chain	24	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail-common/linked_list_node.c:103:15:sail_private_copy_linked_list_node_chain	48	static

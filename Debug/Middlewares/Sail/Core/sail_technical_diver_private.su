@@ -1,0 +1,4 @@
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.c:37:22:check_io_arguments	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.c:48:22:allowed_write_compression	32	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.c:66:15:start_loading_io_with_options	48	static
+/home/haifa/PFA/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.c:111:15:start_saving_io_with_options	48	static
