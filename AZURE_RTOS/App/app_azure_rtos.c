@@ -47,12 +47,12 @@
 /* USER CODE BEGIN TX_Pool_Buffer */
 /* USER CODE END TX_Pool_Buffer */
 static UCHAR tx_byte_pool_buffer[TX_APP_MEM_POOL_SIZE];
-static TX_BYTE_POOL tx_app_byte_pool;
+TX_BYTE_POOL tx_app_byte_pool;
 
 /* USER CODE BEGIN FX_Pool_Buffer */
 /* USER CODE END FX_Pool_Buffer */
 static UCHAR  fx_byte_pool_buffer[FX_APP_MEM_POOL_SIZE];
-static TX_BYTE_POOL fx_app_byte_pool;
+TX_BYTE_POOL fx_app_byte_pool;
 
 /* USER CODE BEGIN PV */
 

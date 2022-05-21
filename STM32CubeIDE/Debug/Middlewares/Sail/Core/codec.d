@@ -1,12 +1,12 @@
 Middlewares/Sail/Core/codec.o: \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/codec.c \
  ../../Core/Inc/config.h \
- ../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h \
- ../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h \
- ../../FileX/App/fx_user.h \
  ../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h \
  ../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h \
  ../../Core/Inc/tx_user.h \
+ ../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h \
+ ../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h \
+ ../../FileX/App/fx_user.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/common.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/error.h \
@@ -63,12 +63,12 @@ Middlewares/Sail/Core/codec.o: \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver.h \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.h
 ../../Core/Inc/config.h:
-../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:
-../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h:
-../../FileX/App/fx_user.h:
 ../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h:
 ../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h:
 ../../Core/Inc/tx_user.h:
+../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:
+../../../../../../../Middlewares/ST/filex/ports/generic/inc/fx_port.h:
+../../FileX/App/fx_user.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/common.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/error.h:

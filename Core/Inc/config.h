@@ -39,9 +39,15 @@
 /* Unused when SAIL_COMBINE_CODECS is ON. */
 #define SAIL_CODECS_PATH ""
 #define SAIL_AZURE_RTOS
+#ifdef SAIL_AZURE_RTOS
+#include "tx_api.h"
+extern TX_BYTE_POOL tx_app_byte_pool;
+#define sail_pool tx_app_byte_pool
+// #define tx_byte_allocate
+#endif
 #define SAIL_COMBINE_CODECS
 
-#define SAIL_UNIX
+//#define SAIL_UNIX --> modifié
 
 /* #undef SAIL_MINGW */
 /* #undef SAIL_CYGWIN */

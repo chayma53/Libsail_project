@@ -1,6 +1,9 @@
 Middlewares/Sail/Core/io_noop.o: \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_noop.c \
  ../../Core/Inc/config.h \
+ ../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h \
+ ../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h \
+ ../../Core/Inc/tx_user.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/common.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/error.h \
@@ -31,6 +34,9 @@ Middlewares/Sail/Core/io_noop.o: \
  ../../../../../../../Middlewares/sail/src/libsail-common/variant.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/variant_node.h
 ../../Core/Inc/config.h:
+../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h:
+../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h:
+../../Core/Inc/tx_user.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/common.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/error.h:

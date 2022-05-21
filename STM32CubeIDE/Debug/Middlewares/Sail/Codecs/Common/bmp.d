@@ -2,6 +2,9 @@ Middlewares/Sail/Codecs/Common/bmp.o: \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/sail-codecs/common/bmp/bmp.c \
  ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h \
  ../../Core/Inc/config.h \
+ ../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h \
+ ../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h \
+ ../../Core/Inc/tx_user.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/common.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/error.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/compiler_specifics.h \
@@ -38,6 +41,9 @@ Middlewares/Sail/Codecs/Common/bmp.o: \
  ../../../../../../../Middlewares/sail/src/libsail-common/pixel.h
 ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:
 ../../Core/Inc/config.h:
+../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h:
+../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h:
+../../Core/Inc/tx_user.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/common.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/error.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/compiler_specifics.h:

@@ -19,8 +19,11 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
+#include "sail.h"
 #include "app_filex.h"
-
+#include "sail_junior.h"
+//#include "image_bmp.c" //--> ajouté par haifa
+#include "error.h"     //--> ajouté par haifa
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "main.h"
@@ -28,12 +31,36 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+SAIL_EXPORT sail_status_t sail_codec_load_init_v7_bmp(struct sail_io *io, const struct sail_load_options *load_options, void **state);
+SAIL_EXPORT sail_status_t sail_codec_load_seek_next_frame_v7_bmp(void *state, struct sail_io *io, struct sail_image **image);
+SAIL_EXPORT sail_status_t sail_codec_load_frame_v7_bmp(void *state, struct sail_io *io, struct sail_image *image);
+SAIL_EXPORT sail_status_t sail_codec_load_finish_v7_bmp(void **state, struct sail_io *io);
+SAIL_EXPORT sail_status_t sail_codec_save_init_v7_bmp(struct sail_io *io, const struct sail_save_options *save_options, void **state);
+SAIL_EXPORT sail_status_t sail_codec_save_seek_next_frame_v7_bmp(void *state, struct sail_io *io, const struct sail_image *image);
+SAIL_EXPORT sail_status_t sail_codec_save_frame_v7_bmp(void *state, struct sail_io *io, const struct sail_image *image);
+SAIL_EXPORT sail_status_t sail_codec_save_finish_v7_bmp(void **state, struct sail_io *io);
 
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+const char * const sail_enabled_codecs[] = {"bmp"};
+struct sail_codec_layout_v7 sail_enabled_codecs_layouts = {  sail_codec_load_init_v7_bmp,
+															 sail_codec_load_seek_next_frame_v7_bmp,
+															 sail_codec_load_frame_v7_bmp,
+															 sail_codec_load_finish_v7_bmp,
+															 sail_codec_save_init_v7_bmp,
+															 sail_codec_save_seek_next_frame_v7_bmp,
+															 sail_codec_save_frame_v7_bmp,
+															 sail_codec_save_finish_v7_bmp};
 
+const char * const sail_enabled_codecs_info[]={};
+//struct sail_codec_layout_v7 const sail_enabled_codecs_layouts[bmp_codec]; //ajouté par mr haithem
+
+extern unsigned char bmp_buffer; //--> ajouté par haifa
+extern unsigned int bmp_buffer_len ; 		//--> ajouté par haifa
+struct sail_image *fst_bmp; //--> ajouté par mr haithem
+enum SailStatus check_load_image; //-->ajouté par haifa
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -100,13 +127,20 @@ UINT MX_FileX_Init(VOID *memory_ptr)
 
 void fx_thread_entry(ULONG thread_input)
 {
-
-  UINT status;
+/* UINT status;
   ULONG bytes_read;
   CHAR read_buffer[32];
-  CHAR data[] = "This is FileX working on STM32";
+  CHAR data[] = "This is FileX working on STM32";*/
+  //sail_load_image_from_memory((const void *)bmp_buffer, bmp_buffer_len, &image_bmp);
+	UINT check_load_image=SAIL_OK;
 
+	check_load_image = sail_load_image_from_memory(bmp_buffer, bmp_buffer_len, &fst_bmp);
+	if(check_load_image != SAIL_OK)
+	{
+		Error_Handler();
+	}
   /* Open the SD disk driver.  */
+#if 0
   status =  fx_media_open(&sdio_disk, "STM32_SDIO_DISK", fx_stm32_sd_driver, 0,(VOID *) media_memory, sizeof(media_memory));
 
   /* Check the media open status.  */
@@ -235,6 +269,7 @@ void fx_thread_entry(ULONG thread_input)
     BSP_LED_Toggle(LED_GREEN);
     tx_thread_sleep(50);
   }
+#endif
 }
 
 /* USER CODE END 1 */

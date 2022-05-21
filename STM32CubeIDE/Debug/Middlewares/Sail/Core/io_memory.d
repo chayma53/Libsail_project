@@ -1,6 +1,9 @@
 Middlewares/Sail/Core/io_memory.o: \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/io_memory.c \
  ../../Core/Inc/config.h \
+ ../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h \
+ ../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h \
+ ../../Core/Inc/tx_user.h \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/common.h \
@@ -55,10 +58,11 @@ Middlewares/Sail/Core/io_memory.o: \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_private.h \
  ../../../../../../../Middlewares/sail/src/libsail-common/common.h \
  /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver.h \
- /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.h \
- ../../../../../../../Middlewares/sail/src/libsail-common/image.c \
- ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h
+ /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.h
 ../../Core/Inc/config.h:
+../../../../../../../Middlewares/ST/threadx/common/inc/tx_api.h:
+../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/tx_port.h:
+../../Core/Inc/tx_user.h:
 /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:
 ../../../../../../../Middlewares/sail/src/libsail-common/common.h:
@@ -114,5 +118,3 @@ Middlewares/Sail/Core/io_memory.o: \
 ../../../../../../../Middlewares/sail/src/libsail-common/common.h:
 /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver.h:
 /home/chayma/x-cube-azrtos-f4-main/Middlewares/sail/src/libsail/sail_technical_diver_private.h:
-../../../../../../../Middlewares/sail/src/libsail-common/image.c:
-../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:

@@ -8,7 +8,7 @@
 "./Application/User/Core/sysmem.o"
 "./Application/User/Core/tx_initialize_low_level.o"
 "./Application/User/FileX/App/app_filex.o"
-"./Application/User/FileX/App/image.o"
+"./Application/User/FileX/App/image_bmp.o"
 "./Application/User/FileX/Target/fx_stm32_sd_driver_glue.o"
 "./Application/User/Startup/startup_stm32f469nihx.o"
 "./Drivers/BSP/STM32469I-DISCO/stm32469i_discovery.o"

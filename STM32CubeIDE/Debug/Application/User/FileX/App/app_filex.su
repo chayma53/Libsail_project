@@ -1,2 +1,2 @@
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/App/app_filex.c:67:6:MX_FileX_Init	64	static
-/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/App/app_filex.c:101:6:fx_thread_entry	112	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/App/app_filex.c:94:6:MX_FileX_Init	64	static
+/home/chayma/x-cube-azrtos-f4-main/Projects/STM32469I-Discovery/Applications/FileX/Libsail_project/FileX/App/app_filex.c:128:6:fx_thread_entry	24	static
