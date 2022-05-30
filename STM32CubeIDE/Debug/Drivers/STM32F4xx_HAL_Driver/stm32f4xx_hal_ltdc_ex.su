@@ -1,0 +1,2 @@
+/home/chayma/x-cube-azrtos-f4-main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c:71:19:HAL_LTDCEx_StructInitFromVideoConfig	16	static
+/home/chayma/x-cube-azrtos-f4-main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c:107:19:HAL_LTDCEx_StructInitFromAdaptedCommandConfig	16	static

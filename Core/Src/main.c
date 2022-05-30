@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "app_threadx.h"
+#include "app_filex.h" //ajouté par moi
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -43,7 +44,8 @@
 SD_HandleTypeDef hsd;
 DMA_HandleTypeDef hdma_sdio_rx;
 DMA_HandleTypeDef hdma_sdio_tx;
-
+uint16_t Xpos = 0;
+uint16_t Ypos = 0;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -52,6 +54,8 @@ DMA_HandleTypeDef hdma_sdio_tx;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_DMA_Init(void);
+static void LCD_Config(void); //ajouté par moi
+//static void Error_Handler(void); //ajouté par moi
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -95,6 +99,10 @@ int main(void)
   MX_DMA_Init();
   /* USER CODE BEGIN 2 */
 
+  /* LCD Configuration => ajouté par moi */
+  LCD_Config();
+
+
   /* USER CODE END 2 */
 
   MX_ThreadX_Init();
@@ -109,6 +117,44 @@ int main(void)
   /* USER CODE END 3 */
 }
 
+/**
+  * @brief lcd Configuration
+  * @retval None
+  * =>ajouté par moi
+  */
+static void LCD_Config(void)
+{
+	uint8_t lcd_status = LCD_OK;
+
+  /* LCD DSI initialization */
+  lcd_status = BSP_LCD_Init();
+  if(lcd_status != LCD_OK)
+  {
+    Error_Handler();
+  }
+
+  BSP_LCD_LayerDefaultInit(0, LCD_FB_START_ADDRESS);
+  BSP_LCD_SelectLayer(0);
+
+  /* Clear the LCD Background layer */
+  BSP_LCD_Clear(LCD_COLOR_WHITE);
+
+  BSP_LCD_SetFont(&LCD_DEFAULT_FONT);
+
+  /* Clear the LCD */
+  BSP_LCD_SetBackColor(LCD_COLOR_WHITE);
+  BSP_LCD_Clear(LCD_COLOR_WHITE);
+
+  /* Set the LCD Text Color */
+  BSP_LCD_SetTextColor(LCD_COLOR_DARKBLUE);
+
+  /* Display LCD messages */
+  BSP_LCD_DisplayStringAt(0, 430, (uint8_t *)"Application BMP_Image_Decoding", CENTER_MODE);
+
+  /* Compute centered position to draw on screen the decoded pixels */
+  //Xpos = (uint16_t)((BSP_LCD_GetXSize() - IMAGE_WIDTH) / 2);
+  //Ypos = (uint16_t)((BSP_LCD_GetYSize() - IMAGE_HEIGHT) / 2);
+}
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -164,6 +210,7 @@ void SystemClock_Config(void)
   * @param None
   * @retval None
   */
+
 void MX_SDIO_SD_Init(void)
 {
 
@@ -198,6 +245,7 @@ void MX_SDIO_SD_Init(void)
 /**
   * Enable DMA controller clock
   */
+
 static void MX_DMA_Init(void)
 {
 
