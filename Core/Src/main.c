@@ -19,7 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "app_threadx.h"
-#include "app_filex.h" //ajouté par moi
+#include "app_filex.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -33,6 +33,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+extern unsigned char bmp_buffer;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -54,8 +55,7 @@ uint16_t Ypos = 0;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_DMA_Init(void);
-static void LCD_Config(void); //ajouté par moi
-//static void Error_Handler(void); //ajouté par moi
+static void LCD_Config(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -99,7 +99,7 @@ int main(void)
   MX_DMA_Init();
   /* USER CODE BEGIN 2 */
 
-  /* LCD Configuration => ajouté par moi */
+  /* LCD Configuration */
   LCD_Config();
 
 
@@ -120,7 +120,7 @@ int main(void)
 /**
   * @brief lcd Configuration
   * @retval None
-  * =>ajouté par moi
+  *
   */
 static void LCD_Config(void)
 {
@@ -152,8 +152,11 @@ static void LCD_Config(void)
   BSP_LCD_DisplayStringAt(0, 430, (uint8_t *)"Application BMP_Image_Decoding", CENTER_MODE);
 
   /* Compute centered position to draw on screen the decoded pixels */
-  //Xpos = (uint16_t)((BSP_LCD_GetXSize() - IMAGE_WIDTH) / 2);
-  //Ypos = (uint16_t)((BSP_LCD_GetYSize() - IMAGE_HEIGHT) / 2);
+  Xpos = (uint16_t)((BSP_LCD_GetXSize() - WIDTH) / 2);
+  Ypos = (uint16_t)((BSP_LCD_GetYSize() - HEIGHT) / 2);
+
+  /* Draw Bitmap */
+  BSP_LCD_DrawBitmap((BSP_LCD_GetXSize() - 80)/2, 125, (uint8_t *)bmp_buffer);
 }
 /**
   * @brief System Clock Configuration

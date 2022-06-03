@@ -38,12 +38,18 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+typedef struct RGB
+{
+  uint8_t B;
+  uint8_t G;
+  uint8_t R;
+}RGB_typedef;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+#define HEIGHT 35
+#define WIDTH  32
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

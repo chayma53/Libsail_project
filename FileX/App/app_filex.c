@@ -22,8 +22,7 @@
 #include "sail.h"
 #include "app_filex.h"
 #include "sail_junior.h"
-//#include "image_bmp.c" //--> ajouté par haifa
-#include "error.h"     //--> ajouté par haifa
+#include "error.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "main.h"
@@ -57,10 +56,10 @@ struct sail_codec_layout_v7 sail_enabled_codecs_layouts = {  sail_codec_load_ini
 const char * const sail_enabled_codecs_info[]={};
 //struct sail_codec_layout_v7 const sail_enabled_codecs_layouts[bmp_codec]; //ajouté par mr haithem
 
-extern unsigned char bmp_buffer; //--> ajouté par haifa
-extern unsigned int bmp_buffer_len ; 		//--> ajouté par haifa
-struct sail_image *fst_bmp; //--> ajouté par mr haithem
-enum SailStatus check_load_image; //-->ajouté par haifa
+extern unsigned char bmp_buffer;
+extern unsigned int bmp_buffer_len ;
+struct sail_image *fst_bmp;
+enum SailStatus check_load_image;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -138,7 +137,19 @@ void fx_thread_entry(ULONG thread_input)
 	if(check_load_image != SAIL_OK)
 	{
 		Error_Handler();
+
 	}
+
+	  printf("Size: %ux%u, bytes per line: %u, "
+	         "pixel format: %s, pixels: %p\n",
+			 fst_bmp->width,
+			 fst_bmp->height,
+			 fst_bmp->bytes_per_line,
+	         sail_pixel_format_to_string(fst_bmp->pixel_format),
+			 fst_bmp->pixels);
+
+	  sail_destroy_image(fst_bmp);
+
   /* Open the SD disk driver.  */
 #if 0
   status =  fx_media_open(&sdio_disk, "STM32_SDIO_DISK", fx_stm32_sd_driver, 0,(VOID *) media_memory, sizeof(media_memory));
